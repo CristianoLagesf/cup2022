@@ -14,6 +14,7 @@ import groupsJson from "../../pages/api/groups.json"
 // }
 
 export default function Groups() {
+  let nd;
   return (
     <div className={styles.container}>
       <table className={styles.table}>
@@ -30,7 +31,9 @@ export default function Groups() {
           </tr>
         </thead>
         <tbody className={styles.tbody}>
-          <tr className={styles.tr}></tr>
+          <tr className={styles.tr}>
+            {nd = groupsJson.map((data) =>{})}
+          </tr>
           <tr className={styles.tr}>
             <td className={styles.col}>Cell 1</td>
             <td className={styles.col}>Cell 1</td>

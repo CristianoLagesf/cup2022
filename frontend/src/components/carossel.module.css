@@ -1,4 +1,4 @@
-.carrosel {
+/* .carrosel {
   -webkit-perspective: 250px;
   -moz-perspective: 250px;
   width: 400px;
@@ -120,4 +120,13 @@
 
 .caixa__card.cc__8 {
   background: linear-gradient(-229deg, #1472ff, #a8eb12);
+} */
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
 }
